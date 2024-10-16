@@ -5,7 +5,7 @@ import org.springframework.data.redis.core.RedisHash;
 import org.springframework.data.redis.core.TimeToLive;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
+
 
 @RedisHash("Url")
 public class Url implements Serializable {
