@@ -18,14 +18,6 @@ public class Url implements Serializable {
     @TimeToLive
     private Long expiresAt;
 
-    public Url(){
-    }
-
-    public Url(String id, String fullUrl) {
-        this.id = id;
-        this.fullUrl = fullUrl;
-    }
-
     public Url(String id, String fullUrl, Long expiresAt) {
         this.id = id;
         this.fullUrl = fullUrl;
