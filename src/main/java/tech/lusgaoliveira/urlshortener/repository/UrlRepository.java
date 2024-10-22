@@ -1,9 +1,7 @@
 package tech.lusgaoliveira.urlshortener.repository;
 
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import tech.lusgaoliveira.urlshortener.entity.Url;
 
-@Repository
-public interface UrlRepository extends CrudRepository<Url, String> {
+public interface UrlRepository extends JpaRepository<Url, Long> {
 }
